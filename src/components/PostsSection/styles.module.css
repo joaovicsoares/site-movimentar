@@ -1,0 +1,10 @@
+.feedSection {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.feedImg {
+    width: 30vw;
+    border-radius: 20px;
+}

@@ -2,7 +2,8 @@ import { useState } from 'react'
 import Header from './components/Header/index.jsx'
 import MainImg from './components/MainImg/index.jsx'
 import ArticleCard from './components/ArticleCard/index.jsx'
-import ArticleImg from '../public/test.png'
+import ArticleImg from '/test.png'
+import PostsSection from './components/PostsSection/index.jsx'
 
 function App() {
 
@@ -19,7 +20,7 @@ function App() {
       </section>
       <section>
         <h1>Ultimas Postagens</h1>
-        
+        <PostsSection />
       </section>
     </div>
   )

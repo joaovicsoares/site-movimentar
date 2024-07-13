@@ -1,4 +1,4 @@
-import "../../../public/test.png"
+import "/test.png"
 import styles from "./MainImg.module.css"
 
 function MainImg() {
