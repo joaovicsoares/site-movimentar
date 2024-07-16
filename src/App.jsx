@@ -4,6 +4,7 @@ import MainImg from './components/MainImg/index.jsx'
 import ArticleCard from './components/ArticleCard/index.jsx'
 import ArticleImg from '/test.png'
 import PostsSection from './components/PostsSection/index.jsx'
+import ContactSection from './components/ContactSection/index.jsx'
 
 function App() {
 
@@ -21,6 +22,10 @@ function App() {
       <section>
         <h1>Ultimas Postagens</h1>
         <PostsSection />
+      </section>
+      <section>
+        <h1>Fale Conosco</h1>
+        <ContactSection/>
       </section>
     </div>
   )

@@ -1,0 +1,64 @@
+.contactCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 40vw;
+    background-color: #0032b4;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 0px #000000;
+}
+
+.mapsContainer {
+    border-bottom: 2px solid #ECF0F1;
+    width: 80%;
+}
+
+.mapsContainer a {
+    width: 50%;
+    color: #ECF0F1;
+    text-decoration: none;
+}
+
+.dotIcon {
+    width: 50%;
+    height: 50px;
+}
+.emailContainer {
+    border-bottom: 2px solid #ECF0F1;
+    width: 80%;
+    color: #ECF0F1;
+}
+
+.emailIcon {
+    width: 50%;
+    height: 50px;
+}
+
+.socialMediaContainer {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.socialMediaContainer button{
+    border-radius: 20px;
+    width: 70px;
+    height: 70px;
+    background-color: #d9d9d97c;
+    color: #ECF0F1;
+    border: 2px solid #ECF0F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whatsIcon {
+    width: 80%;
+    height: 80%;
+}
+
+.instaIcon {
+    width: 80%;
+    height: 80%;
+}
