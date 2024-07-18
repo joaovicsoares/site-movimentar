@@ -1,7 +1,7 @@
 import "../../../public/logo-movimentar.jpg"
 import { Link } from "react-router-dom"
 
-function Header() {
+function Header({props}) {
     return (
         <header className="header">
             <img src="logo-movimentar.jpg" alt="Logo instituto movimentar" />

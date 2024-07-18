@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home.jsx'
-import DonationPage from './pages/DonationPage.jsx'
+import DonationPage from './pages/DonationPage/DonationPage.jsx'
 
 function App() {
 
