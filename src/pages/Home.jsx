@@ -7,7 +7,7 @@ import ContactSection from '../components/ContactSection/index.jsx'
 
 function Home() {
     return (
-        <>
+        <div className='homeContainer'>
             <Header />
             <MainImg/>
             <section>
@@ -25,7 +25,7 @@ function Home() {
                 <h1>Fale Conosco</h1>
                 <ContactSection/>
             </section>
-        </>
+        </div>
     )
 }
 
