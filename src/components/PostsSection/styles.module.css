@@ -1,14 +1,26 @@
 .feedSection {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 20px;
     flex-wrap: wrap;
     width: 100%;
 }
 
 .feedpost {
-    width: 24vw;
-    height: 24vw;
+    width: 22vw;
+    height: 22vw;
     max-width: 300px;
     max-height: 300px;
     border-radius: 20px;
+    background-color: #0032b4;
+    box-shadow: 0px 0px 20px 0px #000000;
+}
+
+@media screen and (max-width: 768px) {
+    .feedpost {
+        width: 40vw;
+        height: 40vw;
+        margin: 20px 0;
+    }
+    
 }

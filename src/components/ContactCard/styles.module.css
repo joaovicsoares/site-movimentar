@@ -4,6 +4,9 @@
     align-items: center;
     justify-content: space-around;
     width: 40vw;
+    min-width: 360px;
+    max-width: 500px;
+    height: 600px;
     background-color: #0032b4;
     border-radius: 20px;
     box-shadow: 0px 0px 20px 0px #000000;
@@ -11,6 +14,7 @@
 
 .contactCard p {
     padding: 0;
+    font-size: 20px;
 }
 
 .mapsContainer {
@@ -65,4 +69,30 @@
 .instaIcon {
     width: 80%;
     height: 80%;
+}
+
+@media screen and (max-width: 768px) {
+    .contactCard {
+        width: 80%;
+        height: 800px;
+        justify-content: space-between;
+        padding: 120px 0;
+    }
+    .contactCard p {
+        margin-bottom: 100px;
+    }
+    .mapsContainer {
+        width: 90%;
+    }
+    .emailContainer {
+        width: 90%;
+    }
+    .socialMediaContainer {
+        width: 90%;
+    }
+    .socialMediaContainer button {
+        width: 60px;
+        height: 60px;
+    }
+    
 }
