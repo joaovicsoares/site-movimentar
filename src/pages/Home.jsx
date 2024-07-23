@@ -4,11 +4,13 @@ import ArticleCard from '../components/ArticleCard/index.jsx'
 import ArticleImg from '/test.png'
 import PostsSection from '../components/PostsSection/index.jsx'
 import ContactSection from '../components/ContactSection/index.jsx'
+import Footer from '../components/Footer/index.jsx'
 
 function Home() {
     return (
         <div className='homeContainer'>
-            <Header />
+            <Header id = 'top' project='#project' posts='/#posts' contact='/#contact' headerBtn='/ajude-nos'
+            textBtn='ajude-nos'/>
             <MainImg/>
             <section id='project'>
                 <h1>Projeto</h1>
@@ -27,6 +29,7 @@ function Home() {
                 <h1>Fale Conosco</h1>
                 <ContactSection/>
             </section>
+            <Footer/>
         </div>
     )
 }

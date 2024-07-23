@@ -6,6 +6,7 @@
     justify-content: space-between;
     align-items: center;
     box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.5);
+    padding-right: 40px;
 }
 
 .header img {
@@ -13,13 +14,12 @@
     margin-left: 5%;
 }
 
-.header nav {
+/* .header nav {
     width: 400px;
     margin-right: 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* gap: 30px; */
 }
 
 .header nav a {
@@ -27,7 +27,7 @@
     text-decoration: none;
     font-size: 15px;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
-}
+} */
 
 .header nav .donationBtn {
     height: 50px;
@@ -64,8 +64,36 @@
     box-shadow: none;
 }
 
+.menuIcon {
+    cursor: pointer;
+    display: none; 
+    margin: 10px;
+}
+
+.menuIcon div {
+    width: 35px;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ECF0F1;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
+    padding: 8px 16px;
+}
+
 @media (max-width: 768px) {
-    .header {
+    /* .header {
         height: 150px;
         display: flex;
         flex-direction: column;
@@ -90,5 +118,27 @@
     .header nav .donationBtn {
         height: 40px;
         width: 100px;
+    } */
+
+    .menu {
+        display: none;
+        flex-direction: column;
+    }
+
+    .menuIcon {
+        display: block;
+    }
+
+    .showMenu {
+        display: flex;
+        flex-direction: column;
+        background-color: #0032b4;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        padding: 10px;
+        z-index: 1000;
     }
 }

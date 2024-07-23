@@ -18,10 +18,14 @@ function ContactCard () {
             </div>
             <div className={styles.socialMediaContainer}>
                 <button>
-                <FaWhatsapp className={styles.whatsIcon}/>
+                <a href="https://api.whatsapp.com/send/?phone=5547992576526&text&type=phone_number&app_absent=0" target='_blank'>
+                    <FaWhatsapp className={styles.whatsIcon}/>
+                </a>
                 </button>
                 <button>
-                <FaInstagram className={styles.instaIcon}/>
+                <a href="https://www.instagram.com/movimentar.bq/" target='_blank'>
+                    <FaInstagram className={styles.instaIcon}/>
+                </a>
                 </button>
             </div>
         </div>
