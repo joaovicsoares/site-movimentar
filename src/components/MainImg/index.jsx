@@ -4,7 +4,6 @@ import styles from "./MainImg.module.css"
 function MainImg() {
     return (
         <div className={styles.imgContainer}>
-            
         </div>
     )
 }

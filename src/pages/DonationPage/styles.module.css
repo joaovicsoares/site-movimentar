@@ -1,13 +1,13 @@
 .donationPage {
     background-color: #2D54DC;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .contentContainer {
-    padding-top: 20px;
+    padding: 20px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
