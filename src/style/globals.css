@@ -13,7 +13,7 @@
 }
 
 .homeContainer {
-    background-image: linear-gradient(#0E0FB5, #4992FF);
+    background-color: #4992FF;
 }
 
 section {
@@ -38,7 +38,8 @@ p {
 
 .cardSection {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 100%;
     flex-wrap: wrap;
 }
 
