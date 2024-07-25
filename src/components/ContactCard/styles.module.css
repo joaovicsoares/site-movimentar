@@ -85,21 +85,23 @@
 @media screen and (max-width: 768px) {
     .contactCard {
         width: 80%;
-        height: 800px;
+        height: 560px;
         justify-content: space-between;
-        padding: 120px 0;
+        /* padding: 120px 0; */
     }
     .contactCard p {
         margin-bottom: 100px;
     }
     .mapsContainer {
         width: 90%;
+        padding-top: 60px;
     }
     .emailContainer {
         width: 90%;
     }
     .socialMediaContainer {
         width: 90%;
+        padding-bottom: 60px;
     }
     .socialMediaContainer button {
         width: 60px;

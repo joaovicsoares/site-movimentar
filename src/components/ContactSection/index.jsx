@@ -4,7 +4,7 @@ import ContactCard from '../ContactCard'
 
 function ContactSection () {
     return (
-        <div className={styles.contactSection}>
+        <div className={`center ${styles.contactSection}`}>
             <ContactCard/>
             <ContactForm/>
         </div>

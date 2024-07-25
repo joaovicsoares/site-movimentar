@@ -1,16 +1,19 @@
 .container {
     background-color: #0E0FB5;
     margin-top: 50px;
+    width: 100%;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 1) ;
+}
+
+.center {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100px;
     padding: 20px 0;
-    width: 100%;
-    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 1) ;
 }
 
-.container p {
+.center p {
     font-size: 12px;
     margin: 0;
 }
@@ -21,6 +24,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding: 0 10px;
     gap: 10px;
     justify-content: space-between;
 }
@@ -32,6 +36,7 @@
 
 .right {
     border-left: 2px solid #fff;
+    padding: 10px 0;
     width: 50vw;
     display: flex;
     flex-direction: column;
@@ -64,5 +69,16 @@
 @media screen and (max-width: 768px) {
     .container {
         height: 200px;
+    }
+
+    .center {
+        height: 200px;
+    }
+    .right {
+        height: 80%;
+    }
+
+    .left {
+        height: 60%;
     }
 }

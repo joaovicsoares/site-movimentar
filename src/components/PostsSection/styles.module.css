@@ -1,10 +1,12 @@
 .feedSection {
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-between;
+    row-gap: 15px;
     flex-wrap: wrap;
-    width: 100%;
+    /* width: 100%; */
 }
+
+
 
 .feedpost {
     width: 22vw;

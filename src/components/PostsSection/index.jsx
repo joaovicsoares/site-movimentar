@@ -25,7 +25,7 @@ function PostsSection () {
     }, []);
 
     return (
-        <section className={styles.feedSection}>
+        <section className={`center ${styles.feedSection}`}>
         {posts.map(post => (
             <div key={post.id}>
                 {post.media_type === 'IMAGE' && (

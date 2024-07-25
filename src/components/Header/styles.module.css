@@ -2,16 +2,21 @@
     background-color: #0E0FB5;
     height: 80px;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
     box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.5);
-    padding-right: 40px;
+    /* padding-right: 40px; */
 }
 
-.header img {
+.center {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.center img {
     height: 100%;
-    margin-left: 5%;
+    /* margin-left: 5%; */
 }
 
 /* .header nav {
