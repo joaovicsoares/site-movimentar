@@ -32,7 +32,7 @@ function PostsSection () {
                     <img className={styles.feedpost} src={post.media_url} alt={post.caption || 'postagem do instagram'} />
                 )}
                 {post.media_type === 'VIDEO' && (
-                    <video className={styles.feedpost} controls>
+                    <video className={`${styles.feedpost} ${styles.video}`} controls>
                         <source src={post.media_url} type="video/mp4" />
                     </video>
                 )}

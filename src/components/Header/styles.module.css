@@ -98,6 +98,10 @@
     padding: 8px 16px;
 }
 
+
+
+
+
 @media (max-width: 768px) {
     .menu {
         display: none;
@@ -119,5 +123,17 @@
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
         padding: 10px;
         z-index: 1000;
+    }
+
+    .change .bar1 {
+        transform: rotate(-45deg) translate(-9px, 6px);
+    }
+    
+    .change .bar2 {
+        opacity: 0;
+    }
+    
+    .change .bar3 {
+        transform: rotate(45deg) translate(-8px, -8px);
     }
 }
