@@ -5,6 +5,7 @@ import ArticleImg from '/test.png'
 import PostsSection from '../components/PostsSection/index.jsx'
 import ContactSection from '../components/ContactSection/index.jsx'
 import Footer from '../components/Footer/index.jsx'
+import TeamSection from '../components/TeamSection/index.jsx'
 
 function Home() {
     return (
@@ -19,6 +20,7 @@ function Home() {
                     <ArticleCard title="Nossa Missão" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ipsum turpis, condimentum ut erat quis, eleifend consectetur eros. Nullam nunc sapien, pellentesque maximus feugiat vitae, vehicula id nisi" articleImg={ArticleImg} altText="imagem projeto"/>
                     <ArticleCard title="Origem" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ipsum turpis, condimentum ut erat quis, eleifend consectetur eros. Nullam nunc sapien, pellentesque maximus feugiat vitae, vehicula id nisi" articleImg={ArticleImg} altText="imagem projeto"/>
                     <ArticleCard title="Equipe" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ipsum turpis, condimentum ut erat quis, eleifend consectetur eros. Nullam nunc sapien, pellentesque maximus feugiat vitae, vehicula id nisi" articleImg={ArticleImg} altText="imagem projeto"/>
+                    <TeamSection/>
                 </section>
             </section>
             <section id='posts'>
