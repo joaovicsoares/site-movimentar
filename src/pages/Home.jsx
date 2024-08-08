@@ -20,8 +20,8 @@ function Home() {
                     <ArticleCard title="Nossa Missão" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ipsum turpis, condimentum ut erat quis, eleifend consectetur eros. Nullam nunc sapien, pellentesque maximus feugiat vitae, vehicula id nisi" articleImg={ArticleImg} altText="imagem projeto"/>
                     <ArticleCard title="Origem" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ipsum turpis, condimentum ut erat quis, eleifend consectetur eros. Nullam nunc sapien, pellentesque maximus feugiat vitae, vehicula id nisi" articleImg={ArticleImg} altText="imagem projeto"/>
                     <ArticleCard title="Equipe" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ipsum turpis, condimentum ut erat quis, eleifend consectetur eros. Nullam nunc sapien, pellentesque maximus feugiat vitae, vehicula id nisi" articleImg={ArticleImg} altText="imagem projeto"/>
-                    <TeamSection/>
                 </section>
+                <TeamSection/>
             </section>
             <section id='posts'>
                 <h1>Ultimas Postagens</h1>
