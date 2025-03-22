@@ -1,4 +1,4 @@
-import "/test.png"
+import "/banner-img.jpg"
 import styles from "./MainImg.module.css"
 
 function MainImg() {
